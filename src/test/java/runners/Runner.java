@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",  // // absolute path de kullanilabilir
         glue = {"stepdefinitions", "hooks"}, // absolute path de kullanilabilir mi????  NOOO
-        tags = "@google_search",  // --> senaryo flower_search veya teapot_search seklinde taglenmisse calisir
+        tags = "@excel_login",  // --> senaryo flower_search veya teapot_search seklinde taglenmisse calisir
         dryRun = false
 
 
