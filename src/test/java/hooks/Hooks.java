@@ -10,9 +10,9 @@ import utilities.Driver;
 public class Hooks {
     @Before // from cucumber.java
     // RUNS BEFORE EACH SCENARIO
-    public void setUp() {
-        System.out.println("before hooks");
-    }
+//    public void setUp() {
+//        System.out.println("before hooks");
+//    }
 
     @After
     public void tearDown(Scenario scenario) {
